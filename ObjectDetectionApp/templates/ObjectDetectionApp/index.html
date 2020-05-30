@@ -34,7 +34,7 @@
                 <span class="input-group-btn">
 
                     <!-- image-preview-clear button -->
-                    <button type="button" class="btn btn-default image-preview-clear" style="display:none;">
+                    <button id="clear" type="button" class="btn btn-default image-preview-clear" style="display:none;">
                         <span class="glyphicon glyphicon-remove"></span> Clear
                     </button>
 
@@ -42,10 +42,10 @@
                     <button class="btn btn-default image-preview-input">
                         <span class="glyphicon glyphicon-folder-open"></span>
                         <span class="image-preview-input-title">Browse</span>
-                        <input type="file" accept="image/jpeg" name="input-file-preview"/>
+                        <input id="file_upload" type="file" accept="image/jpeg" name="input-file-preview"/>
                     </button>
 
-                    <button type="button" class="btn btn-default image-preview-run" style="display:none;">
+                    <button id="run" type="button" class="btn btn-default image-preview-run" style="display:none;">
                         <span class="glyphicon glyphicon-ok"></span> Run
                     </button>
                 </span>
